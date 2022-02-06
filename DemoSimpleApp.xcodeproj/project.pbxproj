@@ -13,6 +13,8 @@
 		83E125F727AFC836006C02E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E125E527AFC835006C02E1 /* ContentView.swift */; };
 		83E125F827AFC836006C02E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E125E627AFC836006C02E1 /* Assets.xcassets */; };
 		83E125F927AFC836006C02E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E125E627AFC836006C02E1 /* Assets.xcassets */; };
+		83E1260327AFE5FB006C02E1 /* CurvedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1260227AFE5FB006C02E1 /* CurvedCircle.swift */; };
+		83E1260427AFE5FB006C02E1 /* CurvedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1260227AFE5FB006C02E1 /* CurvedCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		83E125EB27AFC836006C02E1 /* DemoSimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E125F127AFC836006C02E1 /* DemoSimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E125F327AFC836006C02E1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		83E1260227AFE5FB006C02E1 /* CurvedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				83E125E427AFC835006C02E1 /* DemoSimpleAppApp.swift */,
 				83E125E527AFC835006C02E1 /* ContentView.swift */,
+				83E1260227AFE5FB006C02E1 /* CurvedCircle.swift */,
 				83E125E627AFC836006C02E1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E125F627AFC836006C02E1 /* ContentView.swift in Sources */,
+				83E1260327AFE5FB006C02E1 /* CurvedCircle.swift in Sources */,
 				83E125F427AFC836006C02E1 /* DemoSimpleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E125F727AFC836006C02E1 /* ContentView.swift in Sources */,
+				83E1260427AFE5FB006C02E1 /* CurvedCircle.swift in Sources */,
 				83E125F527AFC836006C02E1 /* DemoSimpleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
